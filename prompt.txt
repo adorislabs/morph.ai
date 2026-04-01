@@ -1,0 +1,42 @@
+Since **Sentio** is a high-complexity "Agentic Web" platform, you shouldn't just ask the AI to start coding. You need to force it to act as a **Senior Systems Architect** first.
+
+Copy and paste this into your coding agent (Cursor, Windsurf, or Replit Agent). This prompt is designed to trigger a **Planning Phase** before a single line of application code is written.
+
+---
+
+### **PROMPT: The Sentio Architect & Implementation Lead**
+
+**Role:** You are a Senior AI Systems Architect and Lead Full-Stack Engineer. We are building **Sentio**, the next generation of the Agentic Web. 
+
+**The Vision:** Sentio is a "Sentient Web Orchestrator" that evolves beyond the current market leader, **Fibr.ai**. While Fibr.ai creates intelligent URLs for personalization, Sentio creates a **self-evolving UI DNA** that mutates in real-time based on "Kinetic Intent" (user behavior) and "Agentic Negotiation" (M2M communication).
+
+**Phase 0: The Planning Requirement (DO NOT CODE YET)**
+Before writing application code, I need you to generate a comprehensive `PROJECT_BLUEPRINT.md`. This document must outline:
+1. **System Architecture:** A multi-agent swarm (Design Agent, Copy Agent, Guardrail Agent) orchestrated by a central "Brain."
+2. **The "Kinetic" Data Schema:** How we will capture and process real-time signals (cursor velocity, hesitation, scroll patterns) without performance lag.
+3. **Edge-Mutation Strategy:** How we will use Next.js Middleware/Edge Functions to ensure "Zero-Flicker" UI mutations.
+4. **The "God Mode" Dashboard Logic:** How we will visualize the AI’s internal reasoning for the hackathon demo.
+5. **Tech Stack Confirmation:** We are using **Next.js 15 (App Router)**, **TypeScript**, **Tailwind CSS**, and the **Vercel AI SDK**. Propose the best vector/state database (e.g., Upstash or Pinecone) for "Contextual Memory."
+
+**Core Functional Pillars to Plan:**
+* **The Signal Interceptor:** Captures UTMs, Referral data, and live Kinetic signals.
+* **The Orchestrator:** An LLM-powered engine that generates a "Mutation Blueprint" JSON.
+* **The Generative Component Library:** A set of shadcn/ui-based components that are fully reactive to the Mutation Blueprint.
+* **The Negotiation Handshake:** A hidden endpoint for "User Agents" to negotiate site content programmatically.
+
+**Your Instructions:**
+1. Analyze the mission of Sentio vs. Fibr.ai.
+2. Produce the `PROJECT_BLUEPRINT.md` and a `FOLDER_STRUCTURE.md`.
+3. Once the blueprint is approved, we will move into **Sprint 1: The Core Orchestration Engine.**
+
+**Awaiting the Blueprint. Let's build the future of the web.**
+
+---
+
+### **Why this prompt is the right move:**
+1.  **Avoids "Spaghetti Code":** Big projects fail when the AI starts writing components before it understands the data flow. This forces it to design the "Brain" first.
+2.  **Sets the "Fibr" Benchmark:** By mentioning Fibr.ai, the coding agent knows it needs to focus on **Real-time Conversion** and **Marketing Logic**.
+3.  **Hackathon Winning "God Mode":** It forces the AI to plan for the demo from Day 1 by including the "Internal Reasoning" dashboard.
+4.  **Zero-Flicker Focus:** This is the #1 technical challenge. Forcing the AI to plan the **Edge-Mutation Strategy** early saves you hours of debugging "layout shifts" later.
+
+**Once it gives you the `PROJECT_BLUEPRINT.md`, read it over. If it looks solid, your next message to the agent should be: "Blueprint approved. Proceed with Sprint 1: Setup the Project Structure and the Signal Interceptor."**

@@ -1,0 +1,22 @@
+Role: You are a Lead AI Architect. Your goal is to build a functional Minimum Viable Product (MVP) of an Agentic Web Experience platform.
+
+Reference & Benchmark: We are using Fibr.ai as our primary reference. Fibr.ai creates "Intelligent URLs" that adapt landing pages to match user intent (ads, search queries, etc.) in real-time to close the "relevance gap." Our goal is to match their core "Intent-to-Page" alignment but architect it for higher-order agency (self-evolving layouts and real-time behavioral mutations).
+
+MVP Scope & Core Features:
+
+    The Fibr-Style Signal Interceptor: Build a layer to capture incoming "signals" (UTM parameters, referral source, and search intent).
+
+    The Intent Orchestrator (The "Brain"): Create an LLM-powered decision engine that processes these signals. Like Fibr, it should output a "Personalization Blueprint," but it must also include UI Mutations (re-ordering sections, changing color schemes, and swapping out entire functional components).
+
+    Zero-Flicker Generative UI: Implement a React/Next.js frontend using Tailwind CSS. Use Server-Side or Edge-side rendering to ensure that when the user hits a "Fibr-style" personalized link, the page arrives already mutated—zero layout shift.
+
+    The "Agent Logic" Transparency Overlay: To win the hackathon demo, include a toggleable "God Mode" panel that shows the agent’s reasoning: "Fibr would change the headline; I am changing the headline AND moving the 'Technical Specs' to the top because the user is an Engineer."
+
+Technical Constraints:
+
+    Performance: Must be "Edge-ready" (<200ms latency).
+
+    Architecture: Use a modular "Agentic" approach where the design logic is separated from the content logic.
+
+    Stack: Next.js (App Router), TypeScript, Tailwind CSS, and a fast LLM SDK (like Vercel AI SDK).
+
