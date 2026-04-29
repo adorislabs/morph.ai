@@ -1,5 +1,34 @@
-.DS_Store
-.next/
+# deps
 node_modules/
+venv/
+
+# env
+.env
+.env.*
 *.env.local
-*.env
+
+# build outputs
+dist/
+build/
+.next/
+*.egg-info/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# cache
+morph/backend/.audit_cache/
+
+# os
+.DS_Store
+Thumbs.db
+
+# misc
+Archive.zip
+*.zip
+
+# dev context (not for publishing)
+.context/
